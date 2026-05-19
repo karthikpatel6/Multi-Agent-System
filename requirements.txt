@@ -3,36 +3,17 @@ langchain-core==0.1.52
 langchain-community==0.0.38
 langchain_mistralai
 langsmith==0.1.67
-
 bs4
 tavily-python
 requests>=2.31.0
 lxml>=5.0.0
-
-# Environment variables
 python-dotenv>=1.0.0
-
-# Async support (important for agents/tools)
 aiohttp>=3.9.0
-
-# Data handling (optional but useful in pipelines)
 pandas>=2.0.0
-
-# Token counting / text utils
 tiktoken>=0.6.0
-
-# Logging / debugging (optional but recommended)
 rich>=13.7.0
-
-# Retry + robustness
 tenacity>=8.2.0
-
-# JSON handling improvements
 orjson>=3.9.0
-
-# Typing support (helps in bigger projects)
 pydantic==2.6.4
-
-# Optional (for advanced parsing / HTML cleanup)
 html5lib>=1.1
 streamlit
